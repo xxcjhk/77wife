@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS基础知识练习</title>
+        <style>
+            h1{
+                color: cadetblue;
+                text-align: center;
+            }
+            .note{
+                text-indent: 2em;
+            }
+            #uni{
+                color: aquamarine;
+                color: aquamarine;
+            }
+            a：link{
+                color: brown;
+            }
+            h1,h2,h3,h4,h5,h6{
+                font-family:"宋体";
+            }
+            ul{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS基础知识练习</h1>
+        <ul>
+            <li>简单选择符</li>
+            <li>组合选择符</li>
+            <li>群组选择符</li>
+            <li>选择符优先级别</li>
+        </ul>
+        <p>CSS的主要规则是：选择符{属性：值}</p>
+        <p>选择符的类型有：简单选择符、组合选择符、群组选择符</p>
+        <h2>简单选择符</h2>
+        <p>简单选择符有：元素选择符</p>
+        <p>西北民族大学</p>
+        <h2>组合选择符</h2>
+        <p>
+            组合选择符能根据文档树种选择符所代表的父子兄弟关系进行更加准确、灵活的选择。
+        </p>
+        <ul>
+            <li>后代选择符（用空格组合在一起），例如：h1 em</li>
+            <li>子元素选择符（用空格组合在一起），例如：h1 em</li>
+            <li>
+                相邻选择符 两个元素用“+”连接在一起，如E+F，表示选择出现在E元素之后的F
+            </li>
+            <li>
+                兄弟选择符 两个元素用“~”连接在一起，如E~F，兄弟选择符会命中所有符合条件的兄弟元素，而不是强制相邻的元素
+            </li>
+        </ul>
+        <h2>群组选择符</h2>
+        <p>群组选择符是多个选择符的并列。</p>
+        <h2>选择符优先级别</h2>
+</body>
+</html>
